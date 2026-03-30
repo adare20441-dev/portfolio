@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayodare — AI Developer</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: -apple-system, sans-serif; color: #111; background: #fff; }
+    nav { padding: 1.5rem 2rem; border-bottom: 1px solid #eee; }
+    nav span { font-weight: 600; font-size: 1.1rem; }
+    .hero { padding: 5rem 2rem; max-width: 700px; margin: 0 auto; }
+    .hero h1 { font-size: 2.5rem; font-weight: 700; margin-bottom: 1rem; }
+    .hero p { font-size: 1.1rem; color: #444; line-height: 1.7; margin-bottom: 2rem; }
+    .btn { display: inline-block; background: #111; color: #fff; padding: 0.75rem 1.5rem; border-radius: 8px; text-decoration: none; font-size: 0.95rem; }
+    .projects { padding: 4rem 2rem; max-width: 700px; margin: 0 auto; }
+    .projects h2 { font-size: 1.5rem; margin-bottom: 2rem; }
+    .card { border: 1px solid #eee; border-radius: 12px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .card h3 { font-size: 1.1rem; margin-bottom: 0.5rem; }
+    .card p { color: #555; font-size: 0.95rem; line-height: 1.6; margin-bottom: 1rem; }
+    .tag { display: inline-block; background: #f3f3f3; color: #333; font-size: 0.8rem; padding: 3px 10px; border-radius: 20px; margin-right: 6px; }
+    .live { color: #111; font-size: 0.9rem; font-weight: 500; text-decoration: none; border-bottom: 1px solid #111; }
+    footer { padding: 2rem; text-align: center; color: #999; font-size: 0.9rem; border-top: 1px solid #eee; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+
+  <nav><span>Ayodare — AI Developer</span></nav>
+
+  <section class="hero">
+    <h1>I build AI tools for small businesses</h1>
+    <p>Chatbots, automations and RAG systems that save time and win more customers. Based in London, working with hospitality, retail and professional services.</p>
+    <a href="mailto:joshandayo@gmail.com" class="btn">Get in touch</a>
+  </section>
+
+  <section class="projects">
+    <h2>Projects</h2>
+
+    <div class="card">
+      <h3>Bella Roma AI Chatbot</h3>
+      <p>A branded AI assistant for an Italian restaurant. Handles bookings, menu questions and general enquiries with conversation memory and a custom personality.</p>
+      <span class="tag">Node.js</span>
+      <span class="tag">Claude API</span>
+      <span class="tag">Railway</span>
+      <br><br>
+      <a href="https://bell-roma-chatbot-production.up.railway.app" class="live" target="_blank">View live →</a>
+    </div>
+
+    <div class="card">
+      <h3>Enquiry Automation Pipeline</h3>
+      <p>An n8n workflow that receives customer enquiries, uses Claude to extract name, email, type and urgency, logs everything to Google Sheets and fires a notification email — automatically.</p>
+      <span class="tag">n8n</span>
+      <span class="tag">Claude API</span>
+      <span class="tag">Google Sheets</span>
+      <span class="tag">Gmail</span>
+    </div>
+
+    <div class="card">
+      <h3>RAG Knowledge System</h3>
+      <p>A vector search system that lets businesses upload documents and ask questions against them. Built with sentence-transformers and a Flask web interface.</p>
+      <span class="tag">Python</span>
+      <span class="tag">Flask</span>
+      <span class="tag">Vector Search</span>
+    </div>
+
+  </section>
+
+  <footer>© 2026 Ayodare · London</footer>
+
+</body>
+</html>
